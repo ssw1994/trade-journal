@@ -20,7 +20,7 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
-            mongoose_1.MongooseModule.forRoot('mongodb://localhost:27017/trader-stalker'),
+            mongoose_1.MongooseModule.forRoot('mongodb+srv://esachin:Complex@1994@cluster0.xd6pt.mongodb.net/?retryWrites=true&w=majority'),
             trade_module_1.TradeModule,
             user_module_1.UserModule,
             pnl_module_1.PnlModule,

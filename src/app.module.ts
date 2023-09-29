@@ -11,7 +11,9 @@ import { PnlModule } from './pnl/pnl.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/trader-stalker'),
+    MongooseModule.forRoot(
+      'mongodb+srv://esachin:Complex@1994@cluster0.xd6pt.mongodb.net/?retryWrites=true&w=majority',
+    ),
     TradeModule,
     UserModule,
     PnlModule,
