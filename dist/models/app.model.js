@@ -45,10 +45,12 @@ __decorate([
     (0, class_validator_1.MinLength)(10),
     (0, class_validator_1.MaxLength)(10),
     (0, class_validator_1.IsNumber)(),
+    (0, class_validator_1.IsOptional)(),
     __metadata("design:type", Number)
 ], SignInDto.prototype, "mobile", void 0);
 __decorate([
     (0, class_validator_1.IsBoolean)(),
+    (0, class_validator_1.IsOptional)(),
     __metadata("design:type", Boolean)
 ], SignInDto.prototype, "premium", void 0);
 exports.SignInDto = SignInDto;
