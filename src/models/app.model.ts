@@ -37,15 +37,14 @@ export class SignInDto {
   @IsNotEmpty()
   password: string;
 
-  @IsNotEmpty()
+  @IsOptional()
   @MinLength(10)
   @MaxLength(10)
   @IsNumber()
-  @IsOptional()
   mobile: number;
 
-  @IsBoolean()
   @IsOptional()
+  @IsBoolean()
   premium: boolean;
 }
 
