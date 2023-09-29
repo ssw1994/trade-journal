@@ -41,9 +41,11 @@ export class SignInDto {
   @MinLength(10)
   @MaxLength(10)
   @IsNumber()
+  @IsOptional()
   mobile: number;
 
   @IsBoolean()
+  @IsOptional()
   premium: boolean;
 }
 
