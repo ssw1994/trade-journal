@@ -12,7 +12,10 @@ import { PnlModule } from './pnl/pnl.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://esachin:Complex@1994@cluster0.xd6pt.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://esachin:Complex_1994@cluster0.xd6pt.mongodb.net/trade_stalker/?retryWrites=true&w=majority',
+      {
+        dbName: 'trade_stalker',
+      },
     ),
     TradeModule,
     UserModule,
