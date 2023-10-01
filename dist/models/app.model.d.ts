@@ -16,7 +16,6 @@ export declare class SignInDto {
     username: string;
     password: string;
     mobile: number;
-    premium: boolean;
 }
 export declare class LoginDto {
     username: string;
