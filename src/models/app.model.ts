@@ -37,8 +37,8 @@ export class SignInDto {
   @IsNotEmpty()
   password: string;
 
+  @IsString()
   @IsOptional()
-  @IsNumber()
   mobile: number;
 }
 

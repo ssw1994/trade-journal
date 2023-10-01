@@ -41,8 +41,8 @@ __decorate([
     __metadata("design:type", String)
 ], SignInDto.prototype, "password", void 0);
 __decorate([
+    (0, class_validator_1.IsString)(),
     (0, class_validator_1.IsOptional)(),
-    (0, class_validator_1.IsNumber)(),
     __metadata("design:type", Number)
 ], SignInDto.prototype, "mobile", void 0);
 exports.SignInDto = SignInDto;
